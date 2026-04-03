@@ -1,68 +1,54 @@
-# CheeseInstallation
-Installer for all your stuff for macndcheese
+# Third-Party Binary Redistribution
 
-## Third-Party Software Notice
+This repository provides a collection of precompiled, unmodified third-party binaries and their dependencies. These files are redistributed for convenience only.
 
-This repository distributes precompiled binaries that are not original works of this project. All rights belong to their respective authors.
+## Included Software
 
-### 7-Zip (7zz)
-7-Zip is developed by Igor Pavlov.  
-Website: https://www.7-zip.org/
+This package may include, but is not limited to:
 
-License: GNU Lesser General Public License (LGPL) version 2.1 or later.
+- 7-Zip (7zz)
+- Git
+- Wget
+- Zstandard (zstd)
+- Wine / Winetricks
+- OpenSSL (libcrypto, libssl)
+- liblzma, liblz4, libidn2, libunistring, libpcre2 and other related libraries
 
-This repository redistributes unmodified binaries of 7-Zip.  
-Source code is available at: https://www.7-zip.org/
+## Important Notice
 
----
+All software included in this repository is the property of its respective authors and projects.  
+This repository does not claim ownership of any third-party software.
 
-### Wine
-Wine is an open-source compatibility layer for running Windows applications on Unix-like systems.  
-Website: https://www.winehq.org/
+All binaries are redistributed in unmodified form.
 
-License: GNU Lesser General Public License (LGPL) version 2.1 or later.
+## Licensing
 
-This repository redistributes unmodified binaries obtained from Homebrew.  
-Source code is available at: https://www.winehq.org/
+Each included component is licensed under its own respective license, which may include:
 
----
+- GNU General Public License (GPL)
+- GNU Lesser General Public License (LGPL)
+- BSD License
+- Apache License
 
-### Git
-Git is a distributed version control system developed by the Git project contributors.  
-Website: https://git-scm.com/
+You must comply with the terms of these licenses when using or redistributing this software.
 
-License: GNU General Public License (GPL) version 2.
+## Source Code
 
-This repository redistributes unmodified binaries.  
-Source code is available at: https://git-scm.com/
+Source code for all included software is available from their original projects:
 
----
+https://www.7-zip.org/  
+https://git-scm.com/  
+https://www.gnu.org/software/wget/  
+https://github.com/facebook/zstd  
+https://www.openssl.org/  
+https://www.winehq.org/
 
-### Homebrew
-Some binaries may be sourced from Homebrew packages.  
-Homebrew is an open-source package manager.
+## Redistribution Notice
 
-Website: https://brew.sh/
+This repository acts solely as a redistribution point for convenience.  
+No modifications have been made to the original software.
 
-License: BSD 2-Clause License.
+## Disclaimer
 
----
-
-### Disclaimer
-This repository does not claim ownership of the above software.  
-All software is redistributed in accordance with their respective licenses.
-
-## 🙏 Special Thanks
-
-MacNCheese wouldn't exist without these incredible open source projects:
-
-| Project | What it does |
-|---|---|
-| [Wine](https://www.winehq.org/) | Runs Windows software on macOS/Linux |
-| [DXVK](https://github.com/doitsujin/dxvk) / [DXVK-macOS](https://github.com/Gcenx/DXVK-macOS) | Translates DirectX 11 → Vulkan |
-| [MoltenVK](https://github.com/KhronosGroup/MoltenVK) | Translates Vulkan → Metal (Apple's GPU API) |
-| [VKD3D-Proton](https://github.com/HansKristian-Work/vkd3d-proton) | Translates DirectX 12 → Vulkan |
-| [DXMT](https://github.com/3Shain/dxmt) | Translates DirectX 11 → Metal directly |
-| [Whisky](https://github.com/Whisky-App/Whisky) | The inspiration and predecessor |
-
----
+This repository is provided "as is", without warranty of any kind.  
+The maintainers of this repository are not responsible for any damages or issues arising from the use of this software.
