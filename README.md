@@ -1,6 +1,6 @@
 # Third-Party Binary Redistribution
 
-This repository provides a collection of precompiled, unmodified third-party binaries and their dependencies. These files are redistributed for convenience only.
+This repository provides a collection of precompiled, unmodified third-party binaries and their dependencies. These files are redistributed for convenience only. None of those above are my work .
 
 ## Included Software
 
